@@ -109,7 +109,7 @@ they are reading strategies for semantic navigation.
 
 # Try this
 
-Create a file called `hello.zyk`:
+Create a file called `hello-world.zyk`:
 
 ```zyk
 Title = "Hello Zygrafi"
@@ -134,7 +134,7 @@ A :: day1
 B :: semantic
 C
 
-Room = A * B + C
+Room = A * (B + C)
 
 roomData "Main Room" = {
   Title: "Hello Zygrafi",
@@ -159,7 +159,7 @@ gallery = {
 Then compile:
 
 ```bash
-zygrafi publish hello.zyk
+zygrafi publish hello-world.zyk
 ```
 
 ---
