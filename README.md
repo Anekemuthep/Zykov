@@ -197,8 +197,8 @@ Included examples:
 # Galleries
 
 Here are some galleries to explore:
-1. [Wipeout: Music, Lore and Tracks](https://stackblitz.com/edit/stackblitz-starters-udiv5vcl?embed=1&file=index.html&hideExplorer=1&view=preview)
-2. [Computers, Anthropology and Sneakers: A Map Gallery](https://stackblitz.com/edit/stackblitz-starters-xlrqanaa?embed=1&file=index.html&hideExplorer=1&view=preview)
+1. [Computers, Anthropology and Sneakers: A Map Gallery](https://stackblitz.com/edit/stackblitz-starters-xlrqanaa?embed=1&file=index.html&hideExplorer=1&view=preview)
+2. [Wipeout: Music, Lore and Tracks](https://stackblitz.com/edit/stackblitz-starters-udiv5vcl?embed=1&file=index.html&hideExplorer=1&view=preview)
 3. [A modo de Blog Semántico (Abril 2026)](https://stackblitz.com/edit/stackblitz-starters-bcspbqee?embed=1&file=index.html&hideExplorer=1&view=preview)
 ---
 
