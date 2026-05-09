@@ -63,50 +63,6 @@ This installs:
 
 ---
 
-# Commands
-
-## Publish semantic page
-
-```bash
-zygrafi publish example.zyk
-```
-
----
-
-## Sculpt semantic page
-
-```bash
-zygrafi sculpt example.zyk
-```
-
----
-
-## Generate syntax-highlighted HTML
-
-```bash
-zygrafi highlight example.zyk
-```
-
----
-
-# Available layouts
-
-```zyk
-Layout = "circular"
-Layout = "grid"
-Layout = "force"
-Layout = "forceAtlas"
-Layout = "random"
-Layout = "concentric"
-Layout = "radial"
-Layout = "arc"
-```
-
-Layouts in Zykov are not only geometric arrangements:
-they are reading strategies for semantic navigation.
-
----
-
 # Try this
 
 Create a file called `hello-world.zyk`:
@@ -162,25 +118,6 @@ Then compile:
 zygrafi publish hello-world.zyk
 ```
 
----
-
-# VS Code Syntax Highlighting
-
-The project includes:
-- `.zyk` syntax support
-- the `Zykov Exhibit` theme
-
-To manually install the extension:
-
-```bash
-./scripts/install-vscode-extension.sh
-```
-
-Then:
-1. restart VS Code,
-2. open a `.zyk` file,
-3. select:
-   `Preferences → Color Theme → Zykov Exhibit`
 
 ---
 
@@ -202,6 +139,43 @@ Here are some galleries to explore:
 3. [A modo de Blog Semántico (Abril 2026)](https://stackblitz.com/edit/stackblitz-starters-bcspbqee?embed=1&file=index.html&hideExplorer=1&view=preview)
 ---
 
+# Available layouts
+
+```zyk
+Layout = "circular"
+Layout = "grid"
+Layout = "force"
+Layout = "forceAtlas"
+Layout = "random"
+Layout = "concentric"
+Layout = "radial"
+Layout = "arc"
+```
+
+Layouts in Zykov are not only geometric arrangements:
+they are reading strategies for semantic navigation.
+
+---
+
+# VS Code Syntax Highlighting
+
+The project includes:
+- `.zyk` syntax support
+- the `Zykov Exhibit` theme
+
+To manually install the extension:
+
+```bash
+./scripts/install-vscode-extension.sh
+```
+
+Then:
+1. restart VS Code,
+2. open a `.zyk` file,
+3. select:
+   `Preferences → Color Theme → Zykov Exhibit`
+
+---
 
 # License
 
