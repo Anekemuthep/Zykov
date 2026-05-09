@@ -113,6 +113,12 @@ entry collectionEntry = {
   Text: "In Zykov, when you connect a node with a collection or node associated to a specifica category, you automatically creatate a filter that aloud you to find it with all the nodes atached to another collection of the same category."
 }
 
+roomDesign Room = {
+  Background: Background,
+  Categories: Categories,
+  Nodes: Nodes
+}
+
 gallery = {
   Room -> "Main Room"
 }
