@@ -86,11 +86,7 @@ EdgesColor = "#7ac9a2"
 
 Layout = "forceAtlas"
 
-A :: day1
-B :: semantic
-C
-
-Room = A * (B + C)
+Room = A * (B :: day1 + C :: semantic * collectionEntry)
 
 roomData "Main Room" = {
   Title: "Hello Zygrafi",
@@ -105,6 +101,16 @@ entry A = {
 entry B = {
   Title:"Semantic Publishing",
   Text:"Zykov transforms graph structures into navigable curatorial spaces."
+}
+
+entry C = {
+  Title: "Semantic Collections",
+  Text: "Zykov alouds to create collections that group specific entries into shared space graph galleries."
+}
+
+entry collectionEntry = {
+  Title: "Define by collection",
+  Text: "In Zykov, when you connect a node with a collection or node associated to a specifica category, you automatically creatate a filter that aloud you to find it with all the nodes atached to another collection of the same category."
 }
 
 gallery = {
