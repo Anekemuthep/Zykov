@@ -108,12 +108,20 @@ Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
 - editorial semantic galleries,
 - and curatorial hypertext systems.
 
+<p align="center">
+  <img src="publish-example-1.png" width="980">
+</p>
+
 Zygrafi combines:
 - graph visualization,
 - semantic topology,
 - editorial design,
 - and hypertext interaction
 into a unified publishing environment.
+
+<p align="center">
+  <img src="publish-example-2.png" width="980">
+</p>
 
 ---
 
