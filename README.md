@@ -97,66 +97,6 @@ It is:
 
 ---
 
-# Philosophy
-
-Zykov treats graphs not only as data structures, but as navigable narrative spaces.
-
-A graph in Zykov can simultaneously become:
-- a semantic archive,
-- an interconnected diary,
-- a curatorial exhibition,
-- a conceptual atlas,
-- a semantic notebook,
-- or a digital publication.
-
-The language is inspired by:
-- algebraic graph theory,
-- semantic hypertext,
-- curatorial design,
-- ergodic literature,
-- experimental interfaces,
-- and graph-based visual exploration.
-
----
-
-# Semantic Curatorial Publishing
-
-Zykov extends algebraic graph theory into semantic publishing.
-
-Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
-- interactive semantic pages,
-- navigable graph publications,
-- interconnected entries,
-- editorial semantic galleries,
-- and curatorial hypertext systems.
-
-<p align="center">
-  <img src="publish-example-1.png" width="980">
-</p>
-
-Zygrafi combines:
-- graph visualization,
-- semantic topology,
-- editorial design,
-- and hypertext interaction
-into a unified publishing environment.
-
-<p align="center">
-  <img src="publish-example-2.png" width="980">
-</p>
-
----
-
-# Galleries made with Zykov
-
-Here are some example galleries to explore:
-1. [Computers, Anthropology and Sneakers: A Map Gallery](https://stackblitz.com/edit/stackblitz-starters-xlrqanaa?embed=1&file=index.html&hideExplorer=1&view=preview)
-2. [Wipeout: Music, Lore and Tracks](https://stackblitz.com/edit/stackblitz-starters-udiv5vcl?embed=1&file=index.html&hideExplorer=1&view=preview)
-3. [A modo de Blog Semántico (Abril 2026)](https://stackblitz.com/edit/stackblitz-starters-bcspbqee?embed=1&file=index.html&hideExplorer=1&view=preview)
-4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://stackblitz.com/edit/stackblitz-starters-coxqikrf?embed=1&file=index.html&hideExplorer=1&view=preview)
-
----
-
 # Live Playground
 
 Copy and paste the following code:
@@ -283,6 +223,66 @@ gallery = {
   Room -> "Main Room"
 }
 ```
+
+---
+
+# Philosophy
+
+Zykov treats graphs not only as data structures, but as navigable narrative spaces.
+
+A graph in Zykov can simultaneously become:
+- a semantic archive,
+- an interconnected diary,
+- a curatorial exhibition,
+- a conceptual atlas,
+- a semantic notebook,
+- or a digital publication.
+
+The language is inspired by:
+- algebraic graph theory,
+- semantic hypertext,
+- curatorial design,
+- ergodic literature,
+- experimental interfaces,
+- and graph-based visual exploration.
+
+---
+
+# Semantic Curatorial Publishing
+
+Zykov extends algebraic graph theory into semantic publishing.
+
+Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
+- interactive semantic pages,
+- navigable graph publications,
+- interconnected entries,
+- editorial semantic galleries,
+- and curatorial hypertext systems.
+
+<p align="center">
+  <img src="publish-example-1.png" width="980">
+</p>
+
+Zygrafi combines:
+- graph visualization,
+- semantic topology,
+- editorial design,
+- and hypertext interaction
+into a unified publishing environment.
+
+<p align="center">
+  <img src="publish-example-2.png" width="980">
+</p>
+
+---
+
+# Galleries made with Zykov
+
+Here are some example galleries to explore:
+1. [Computers, Anthropology and Sneakers: A Map Gallery](https://stackblitz.com/edit/stackblitz-starters-xlrqanaa?embed=1&file=index.html&hideExplorer=1&view=preview)
+2. [Wipeout: Music, Lore and Tracks](https://stackblitz.com/edit/stackblitz-starters-udiv5vcl?embed=1&file=index.html&hideExplorer=1&view=preview)
+3. [A modo de Blog Semántico (Abril 2026)](https://stackblitz.com/edit/stackblitz-starters-bcspbqee?embed=1&file=index.html&hideExplorer=1&view=preview)
+4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://stackblitz.com/edit/stackblitz-starters-coxqikrf?embed=1&file=index.html&hideExplorer=1&view=preview)
 
 ---
 
