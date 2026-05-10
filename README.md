@@ -17,7 +17,7 @@ Zykov is a programming language for constructing:
 ---
 
 <p align="center">
-  <img src="zykov-example.png" width="980">
+  <img src="zy-greeting.png" width="980">
 </p>
 
 ---
