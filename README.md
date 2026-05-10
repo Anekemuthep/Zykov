@@ -163,7 +163,7 @@ Copy and paste the following code:
 ```zyk
 G = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) + path([hello,friend,have,a,happy,zykov,coding])
 ```
-And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview). G will be greeting you in a jump in the other side.
+And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview). G will be greeting you :) in a jump in the other side.
 
 If you want to learn more on Zykov, you can try the code for the manual:
 ```zyk
