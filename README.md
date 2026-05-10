@@ -61,7 +61,7 @@ This installs:
 - VS Code syntax highlighting
 - demo builds
 
-If by any chance an error occur, try this:
+If by any chance an error occur, in the same root of the zykov-lang file write:
 
 ```bash
 sudo npm install -g .
