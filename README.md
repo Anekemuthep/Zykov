@@ -97,6 +97,26 @@ It is:
 
 ---
 
+# Semantic Curatorial Publishing
+
+Zykov extends algebraic graph theory into semantic publishing.
+
+Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
+- interactive semantic pages,
+- navigable graph publications,
+- interconnected entries,
+- editorial semantic galleries,
+- and curatorial hypertext systems.
+
+Zygrafi combines:
+- graph visualization,
+- semantic topology,
+- editorial design,
+- and hypertext interaction
+into a unified publishing environment.
+
+---
+
 # Live Playground
 
 Copy and paste the following code:
@@ -215,26 +235,6 @@ gallery = {
 }
 ```
 And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview).
-
----
-
-# Semantic Curatorial Publishing
-
-Zykov extends algebraic graph theory into semantic publishing.
-
-Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
-- interactive semantic pages,
-- navigable graph publications,
-- interconnected entries,
-- editorial semantic galleries,
-- and curatorial hypertext systems.
-
-Zygrafi combines:
-- graph visualization,
-- semantic topology,
-- editorial design,
-- and hypertext interaction
-into a unified publishing environment.
 
 ---
 
