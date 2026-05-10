@@ -2,17 +2,113 @@
 
 **A graph-oriented language for semantic curatorial publishing on the web.**
 
-Zykov is a programming language for constructing semantic graphs, narrative structures, curatorial archives, interconnected blogs, and exploratory hypertextual spaces through algebraic graph expressions.
+Write graphs as algebraic expressions.  
+Compile them into navigable semantic spaces.
 
-Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into interactive semantic publications with:
-- graph visualization,
-- room navigation,
-- topic filters,
+Zykov is a programming language for constructing:
+- semantic archives,
+- interconnected blogs,
+- curatorial exhibitions,
+- semantic notebooks,
+- narrative maps,
+- semantic newsrooms,
+- and exploratory hypertext systems.
+
+---
+
+<p align="center">
+  <img src="docs/images/zykov-highlight.png" width="980">
+</p>
+
+---
+
+# Graphs as Expressions
+
+In Zykov, graphs are written algebraically.
+
+The expression itself becomes the topology.
+
+## Path Graph
+
+```zyk
+1*2 + 2*3 + 3*4 + 4*5
+```
+
+Creates a path graph of five nodes.
+
+---
+
+## Complete Graph
+
+```zyk
+1*2*3*4*5
+```
+
+Creates a complete graph where every node is connected to every other node.
+
+---
+
+## Complete Tripartite Graph
+
+```zyk
+(1+2+3)*(4+5+6)*(7+8)
+```
+
+Creates a complete tripartite graph.
+
+---
+
+## Semantic Graph
+
+```zyk
+AI :: Infrastructure
+Cloud :: Infrastructure
+State :: Governance
+
+Newsroom =
+  AI * Cloud
+  + Cloud * State
+```
+
+In Zykov, algebraic graph structures can become:
+- semantic publications,
+- curatorial interfaces,
+- interconnected essays,
+- and navigable narrative systems.
+
+The expression is not only code.
+
+It is:
+- structure,
+- topology,
+- narrative,
+- and publication architecture.
+
+---
+
+# Live Playground
+
+Try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview).
+
+---
+
+# Semantic Curatorial Publishing
+
+Zykov extends algebraic graph theory into semantic publishing.
+
+Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
+- interactive semantic pages,
+- navigable graph publications,
 - interconnected entries,
-- hypertext references,
-- editorial layouts,
-- and curatorial reading interfaces.
+- editorial semantic galleries,
+- and curatorial hypertext systems.
 
+Zygrafi combines:
+- graph visualization,
+- semantic topology,
+- editorial design,
+- and hypertext interaction
+into a unified publishing environment.
 ---
 
 # Philosophy
