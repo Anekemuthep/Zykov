@@ -61,6 +61,13 @@ This installs:
 - VS Code syntax highlighting
 - demo builds
 
+If by any chance an error occur, try this:
+
+```bash
+sudo npm install -g .
+```
+and this should fix it.
+
 ---
 
 # Try this
