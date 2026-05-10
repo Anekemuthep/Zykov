@@ -70,6 +70,26 @@ and this should fix it.
 
 ---
 
+# VS Code Syntax Highlighting
+
+The project includes:
+- `.zyk` syntax support
+- the `Zykov Exhibit` theme
+
+To manually install the extension:
+
+```bash
+./scripts/install-vscode-extension.sh
+```
+
+Then:
+1. restart VS Code,
+2. open a `.zyk` file,
+3. select:
+   `Preferences → Color Theme → Zykov Exhibit`
+
+---
+
 # Try this
 
 Create a file called `hello-world.zyk`:
@@ -173,26 +193,6 @@ Layout = "arc"
 
 Layouts in Zykov are not only geometric arrangements:
 they are reading strategies for semantic navigation.
-
----
-
-# VS Code Syntax Highlighting
-
-The project includes:
-- `.zyk` syntax support
-- the `Zykov Exhibit` theme
-
-To manually install the extension:
-
-```bash
-./scripts/install-vscode-extension.sh
-```
-
-Then:
-1. restart VS Code,
-2. open a `.zyk` file,
-3. select:
-   `Preferences → Color Theme → Zykov Exhibit`
 
 ---
 
