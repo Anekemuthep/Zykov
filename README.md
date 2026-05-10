@@ -61,14 +61,13 @@ Creates a complete tripartite graph.
 ## Semantic Graph
 
 ```zyk
-AI :: Infrastructure
-Cloud :: Infrastructure
-State :: Governance
-
-Newsroom =
-  AI * Cloud
-  + Cloud * State
+Title = "Semantic Graph Example"
+Newsroom = AI :: Infrastructure * Cloud :: Infrastructure + Cloud * State :: Governance
 ```
+
+<p align="center">
+  <img src="semantic-graph-example.png" width="980">
+</p>
 
 In Zykov, algebraic graph structures can become:
 - semantic publications,
