@@ -31,30 +31,42 @@ The expression itself becomes the topology.
 ## Path Graph
 
 ```zyk
-1*2 + 2*3 + 3*4 + 4*5
+a1*a2 + a2*a3 + a3*a4 + a4*a5
 ```
 
 Creates a path graph of five nodes.
+
+<p align="center">
+  <img src="path-graph-example.png" width="980">
+</p>
 
 ---
 
 ## Complete Graph
 
 ```zyk
-1*2*3*4*5
+a1*a2*a3*a4*a5
 ```
 
 Creates a complete graph where every node is connected to every other node.
+
+<p align="center">
+  <img src="complete-graph-example.png" width="980">
+</p>
 
 ---
 
 ## Complete Tripartite Graph
 
 ```zyk
-(1+2+3)*(4+5+6)*(7+8)
+(a1+a2+a3)*(a4+a5+a6)*(a7+a8)
 ```
 
 Creates a complete tripartite graph.
+
+<p align="center">
+  <img src="partition-graph-example.png" width="980">
+</p>
 
 ---
 
@@ -423,6 +435,10 @@ This guarantees that:
 # Credits
 
 Zykov language developed by Alfonso Bustamante.
+
+<p align="center">
+  <img src="whoiamzykov.png" width="980">
+</p>
 
 Based on the paper:
 
