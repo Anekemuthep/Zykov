@@ -470,3 +470,10 @@ https://alfonsobustamante.com/
 
 Published article:
 https://www.worldscientific.com/doi/10.1142/S1793830925500806
+
+Zykov and Zygrafi use the graph visualization technology developed by Sigma.js.
+
+Sigma.js was fundamental in the construction of the visual and navigable layer of the project.
+
+- Sigma.js → https://www.sigmajs.org/
+- Graphology → https://graphology.github.io/
