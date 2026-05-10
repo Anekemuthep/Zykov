@@ -97,6 +97,28 @@ It is:
 
 ---
 
+# Philosophy
+
+Zykov treats graphs not only as data structures, but as navigable narrative spaces.
+
+A graph in Zykov can simultaneously become:
+- a semantic archive,
+- an interconnected diary,
+- a curatorial exhibition,
+- a conceptual atlas,
+- a semantic notebook,
+- or a digital publication.
+
+The language is inspired by:
+- algebraic graph theory,
+- semantic hypertext,
+- curatorial design,
+- ergodic literature,
+- experimental interfaces,
+- and graph-based visual exploration.
+
+---
+
 # Semantic Curatorial Publishing
 
 Zykov extends algebraic graph theory into semantic publishing.
@@ -253,28 +275,6 @@ gallery = {
 }
 ```
 And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview).
-   
----
-
-# Philosophy
-
-Zykov treats graphs not only as data structures, but as navigable narrative spaces.
-
-A graph in Zykov can simultaneously become:
-- a semantic archive,
-- an interconnected diary,
-- a curatorial exhibition,
-- a conceptual atlas,
-- a semantic notebook,
-- or a digital publication.
-
-The language is inspired by:
-- algebraic graph theory,
-- semantic hypertext,
-- curatorial design,
-- ergodic literature,
-- experimental interfaces,
-- and graph-based visual exploration.
 
 ---
 
