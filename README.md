@@ -104,7 +104,7 @@ Copy and paste the following code:
 Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend,have,a,happy,zykov,coding])
 // this is a comment. Eliminate the comment above to see what Zy wants to say :)
 ```
-And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview). Press *clear*, then *run*  and Zy will greet you :). 
+And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://stackblitz.com/edit/stackblitz-starters-cxe96c2j?embed=1&file=index.html&hideExplorer=1&view=preview). Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
 
 If you want to learn more on Zykov, you can try the code for the tutorial:
 ```zyk
