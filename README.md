@@ -280,10 +280,10 @@ into a unified publishing environment.
 # Galleries made with Zykov
 
 Here are some example galleries to explore:
-1. [Computers, Anthropology and Sneakers: A Map Gallery](https://stackblitz.com/edit/stackblitz-starters-xlrqanaa?embed=1&file=index.html&hideExplorer=1&view=preview)
-2. [Wipeout: Music, Lore and Tracks](https://stackblitz.com/edit/stackblitz-starters-udiv5vcl?embed=1&file=index.html&hideExplorer=1&view=preview)
-3. [A modo de Blog Semántico (Abril 2026)](https://stackblitz.com/edit/stackblitz-starters-bcspbqee?embed=1&file=index.html&hideExplorer=1&view=preview)
-4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://stackblitz.com/edit/stackblitz-starters-coxqikrf?embed=1&file=index.html&hideExplorer=1&view=preview)
+1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
+2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
+3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
+4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
 
 ---
 
