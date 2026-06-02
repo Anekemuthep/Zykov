@@ -15,13 +15,6 @@ Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
   <img src="publish-example-1.png" width="980">
 </p>
 
-Zygrafi combines:
-- graph visualization,
-- semantic topology,
-- editorial design,
-- and hypertext interaction
-into a unified publishing environment.
-
 ---
 
 # Galleries made with Zykov
