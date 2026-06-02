@@ -17,16 +17,6 @@ Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
 
 ---
 
-# Galleries made with Zykov
-
-Here are some example galleries to explore:
-1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
-2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
-3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
-4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
-
----
-
 # Graphs as Expressions
 
 In Zykov, graphs are written algebraically.
@@ -67,6 +57,16 @@ Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend
 // this is a comment. Eliminate the comment above to see what Zy wants to say :)
 ```
 And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://anekemuthep.neocities.org/zygrafi-notelab). Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
+
+---
+
+# Galleries made with Zykov
+
+Here are some example galleries to explore:
+1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
+2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
+3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
+4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
 
 ---
 
