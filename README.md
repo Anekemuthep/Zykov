@@ -79,127 +79,6 @@ Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend
 ```
 And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://anekemuthep.neocities.org/zygrafi-notelab). Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
 
-# Learn More
-
-If you want to learn more on Zykov, you can try the code for the tutorial:
-```zyk
-Title = "Hello Zykov — Learning by Building"
-
-Background = "#dfe7e1"
-
-Categories = {
-  day1 -> "#4db6ac",
-  semantic -> "#ce93d8",
-  algebra -> "#7f8fb3",
-  functions -> "#c8a46a"
-}
-
-NodesColor = {
-  entries -> "#34495e",
-  general -> "#5d6d7e"
-}
-
-EdgesColor = {"#7ac9a2"}
-
-all = {
-  Title:"Hello Zykov",
-  Text:"This example is a small learning graph. Each node explains one part of the language while the graph itself is built from those same ideas.\n\nThe expression itself becomes the topology.\n\nTry changing categories, operators, or layouts and run the script again."
-}
-
-topic day1 = {
-  Title:"First layer",
-  Text:"This topic contains the first construction layer: simple nodes, visible relations, and basic graph composition."
-}
-
-topic semantic = {
-  Title:"Semantic layer",
-  Text:"This topic shows how nodes become entries with text, meaning, and navigable interpretation."
-}
-
-topic algebra = {
-  Title:"Algebraic layer",
-  Text:"Zykov uses + for union and * for join/link. The expression itself describes the structure of the graph."
-}
-
-topic functions = {
-  Title:"Functional layer",
-  Text:"Zykov can also use functions and guards to generate new graph structures from conditions."
-}
-
-// this is a comment. If you un-comment the lines below, Zy will join you in this manual. 
-//Zy = a1 * a2 * a3 + a3 * (b1 + B2 + b3)  + b3 * (C1 + c2)
-
-Manual = (A :: day1) * ((B :: semantic) + ((C + D) :: semantic) + ((Join + Union + Category) :: algebra)) + C * (Function + Guards + NewGraph) + Function * Guards + Guards * NewGraph //+ Zy 
-
-Room = Manual |> forceAtlasLayout
-
-roomData "Main Room" = {
-  Title:"Hello Zykov",
-  Text:"A semantic graph publication generated with Zykov.\n\nThis room is designed as a first hands-on example: you read the graph, click its nodes, and learn how the same script constructs the space you are exploring."
-}
-
-roomDesign Room = {
-  Background: Background,
-  Categories: Categories,
-  Nodes: NodesColor,
-  Edges: EdgesColor
-}
-
-entry A = {
-  Title:"Start here",
-  Text:"This is the first node.\n\nIn Zykov, a node can be part of an algebraic expression and also become an entry with its own text.\n\nTry changing A into another name and run the script again."
-}
-
-entry B = {
-  Title:"Semantic publishing",
-  Text:"Zykov transforms graph expressions into navigable semantic spaces.\n\nA graph is not only drawn. It becomes a publication."
-}
-
-entry C = {
-  Title:"Union",
-  Text:"The operator + combines graphs without forcing new connections.\n\nExample:\n\nA + B\n\nThis means A and B appear together, but they are not directly linked."
-}
-
-entry D = {
-  Title:"Join",
-  Text:"The operator * links graph components.\n\nExample:\n\nA * B\n\nThis creates a connection between A and B.\n\nWhen applied to larger expressions, * connects every vertex from one side to every vertex from the other."
-}
-
-entry Join = {
-  Title:"The join operator",
-  Text:"The expression:\n\nA * (B + C)\n\nmeans that A connects to both B and C.\n\nThis is one of the most important algebraic gestures in Zykov."
-}
-
-entry Union = {
-  Title:"The union operator",
-  Text:"The expression:\n\nB + C\n\nplaces B and C in the same graph without connecting them directly.\n\nThis is useful for creating groups, collections, and parallel semantic elements."
-}
-
-entry Category = {
-  Title:"Categories",
-  Text:"The operator :: assigns a semantic category to a graph.\n\nExample:\n\nA :: day1\n\nCategories become filters, colors, and interpretive layers in the final publication."
-}
-
-entry Function = {
-  Title:"Functions",
-  Text:"Functions allow you to reuse construction patterns.\n\nFor example, a function could receive a graph and return a modified graph.\n\nThis lets Zykov move from writing individual graphs to designing graph-generating procedures."
-}
-
-entry Guards = {
-  Title:"Guards and conditions",
-  Text:"With guards, a function can choose different constructions depending on a condition.\n\nExample:\n\nbuild(x) = x == 1 -> A * B | else -> A + B\n\nThis means: if the condition is true, create one structure; otherwise, create another.\n\nWith guards, Zykov can generate networks from rules."
-}
-
-entry NewGraph = {
-  Title:"New graph from rules",
-  Text:"If you define functions with guards and apply them to graph expressions, you can create new networks conditionally.\n\nThis is where Zykov becomes more than notation:\n\nit becomes a small language for constructing semantic worlds."
-}
-
-gallery = {
-  Room -> "Main Room"
-}
-```
-
 ---
 
 # Installation
@@ -334,6 +213,129 @@ Included examples:
 - `living-gallery.zyk`
 - `wipeout_soundtrack.zyk`
 - `note-lab-example.zyk`
+
+---
+
+# Learn More
+
+If you want to learn more on Zykov, you can try the code for the tutorial:
+```zyk
+Title = "Hello Zykov — Learning by Building"
+
+Background = "#dfe7e1"
+
+Categories = {
+  day1 -> "#4db6ac",
+  semantic -> "#ce93d8",
+  algebra -> "#7f8fb3",
+  functions -> "#c8a46a"
+}
+
+NodesColor = {
+  entries -> "#34495e",
+  general -> "#5d6d7e"
+}
+
+EdgesColor = {"#7ac9a2"}
+
+all = {
+  Title:"Hello Zykov",
+  Text:"This example is a small learning graph. Each node explains one part of the language while the graph itself is built from those same ideas.\n\nThe expression itself becomes the topology.\n\nTry changing categories, operators, or layouts and run the script again."
+}
+
+topic day1 = {
+  Title:"First layer",
+  Text:"This topic contains the first construction layer: simple nodes, visible relations, and basic graph composition."
+}
+
+topic semantic = {
+  Title:"Semantic layer",
+  Text:"This topic shows how nodes become entries with text, meaning, and navigable interpretation."
+}
+
+topic algebra = {
+  Title:"Algebraic layer",
+  Text:"Zykov uses + for union and * for join/link. The expression itself describes the structure of the graph."
+}
+
+topic functions = {
+  Title:"Functional layer",
+  Text:"Zykov can also use functions and guards to generate new graph structures from conditions."
+}
+
+// this is a comment. If you un-comment the lines below, Zy will join you in this manual. 
+//Zy = a1 * a2 * a3 + a3 * (b1 + B2 + b3)  + b3 * (C1 + c2)
+
+Manual = (A :: day1) * ((B :: semantic) + ((C + D) :: semantic) + ((Join + Union + Category) :: algebra)) + C * (Function + Guards + NewGraph) + Function * Guards + Guards * NewGraph //+ Zy 
+
+Room = Manual |> forceAtlasLayout
+
+roomData "Main Room" = {
+  Title:"Hello Zykov",
+  Text:"A semantic graph publication generated with Zykov.\n\nThis room is designed as a first hands-on example: you read the graph, click its nodes, and learn how the same script constructs the space you are exploring."
+}
+
+roomDesign Room = {
+  Background: Background,
+  Categories: Categories,
+  Nodes: NodesColor,
+  Edges: EdgesColor
+}
+
+entry A = {
+  Title:"Start here",
+  Text:"This is the first node.\n\nIn Zykov, a node can be part of an algebraic expression and also become an entry with its own text.\n\nTry changing A into another name and run the script again."
+}
+
+entry B = {
+  Title:"Semantic publishing",
+  Text:"Zykov transforms graph expressions into navigable semantic spaces.\n\nA graph is not only drawn. It becomes a publication."
+}
+
+entry C = {
+  Title:"Union",
+  Text:"The operator + combines graphs without forcing new connections.\n\nExample:\n\nA + B\n\nThis means A and B appear together, but they are not directly linked."
+}
+
+entry D = {
+  Title:"Join",
+  Text:"The operator * links graph components.\n\nExample:\n\nA * B\n\nThis creates a connection between A and B.\n\nWhen applied to larger expressions, * connects every vertex from one side to every vertex from the other."
+}
+
+entry Join = {
+  Title:"The join operator",
+  Text:"The expression:\n\nA * (B + C)\n\nmeans that A connects to both B and C.\n\nThis is one of the most important algebraic gestures in Zykov."
+}
+
+entry Union = {
+  Title:"The union operator",
+  Text:"The expression:\n\nB + C\n\nplaces B and C in the same graph without connecting them directly.\n\nThis is useful for creating groups, collections, and parallel semantic elements."
+}
+
+entry Category = {
+  Title:"Categories",
+  Text:"The operator :: assigns a semantic category to a graph.\n\nExample:\n\nA :: day1\n\nCategories become filters, colors, and interpretive layers in the final publication."
+}
+
+entry Function = {
+  Title:"Functions",
+  Text:"Functions allow you to reuse construction patterns.\n\nFor example, a function could receive a graph and return a modified graph.\n\nThis lets Zykov move from writing individual graphs to designing graph-generating procedures."
+}
+
+entry Guards = {
+  Title:"Guards and conditions",
+  Text:"With guards, a function can choose different constructions depending on a condition.\n\nExample:\n\nbuild(x) = x == 1 -> A * B | else -> A + B\n\nThis means: if the condition is true, create one structure; otherwise, create another.\n\nWith guards, Zykov can generate networks from rules."
+}
+
+entry NewGraph = {
+  Title:"New graph from rules",
+  Text:"If you define functions with guards and apply them to graph expressions, you can create new networks conditionally.\n\nThis is where Zykov becomes more than notation:\n\nit becomes a small language for constructing semantic worlds."
+}
+
+gallery = {
+  Room -> "Main Room"
+}
+```
 
 ---
 
