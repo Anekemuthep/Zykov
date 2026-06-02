@@ -16,70 +16,22 @@ Zykov is a programming language for constructing:
 
 ---
 
-<p align="center">
-  <img src="zy-greeting.png" width="1980">
-</p>
-
----
-
 # Graphs as Expressions
 
 In Zykov, graphs are written algebraically.
 
 The expression itself becomes the topology.
 
-## Path Graph
-
-```zyk
-a1*a2 + a2*a3 + a3*a4 + a4*a5
-```
-
-Creates a path graph of five nodes.
-
 <p align="center">
-  <img src="path-graph-example.png" width="980">
+  <img src="zy-greeting.png" width="1980">
 </p>
 
----
-
-## Complete Graph
-
+The above graph is expressed as
 ```zyk
-a1*a2*a3*a4*a5
+a1*a2*a3 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there + I*am+am*Floating+Floating*as+as*a+a*Graph
 ```
-
-Creates a complete graph where every node is connected to every other node.
-
-<p align="center">
-  <img src="complete-graph-example.png" width="980">
-</p>
-
----
-
-## Complete Tripartite Graph
-
-```zyk
-(a1+a2+a3)*(a4+a5+a6)*(a7+a8)
-```
-
-Creates a complete tripartite graph.
-
-<p align="center">
-  <img src="partition-graph-example.png" width="980">
-</p>
-
----
 
 ## Semantic Graph
-
-```zyk
-Title = "Semantic Graph Example"
-Newsroom = AI :: Infrastructure * Cloud :: Infrastructure + Cloud * State :: Governance
-```
-
-<p align="center">
-  <img src="semantic-graph-example.png" width="980">
-</p>
 
 In Zykov, algebraic graph structures can become:
 - semantic publications,
@@ -95,6 +47,50 @@ It is:
 - narrative,
 - and publication architecture.
 
+In the above example, two categories are created, as cat1 and cat2, for the clique a1*a2*a3 , and hello * there , so we have
+
+```zyk
+a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
+```
+Where the categories are associated with colors to differenciate and filter.
+
+---
+# Semantic Curatorial Publishing
+
+Zykov extends algebraic graph theory into semantic publishing.
+
+Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
+- interactive semantic pages,
+- navigable graph publications,
+- interconnected entries,
+- editorial semantic galleries,
+- and curatorial hypertext systems.
+
+<p align="center">
+  <img src="publish-example-1.png" width="980">
+</p>
+
+Zygrafi combines:
+- graph visualization,
+- semantic topology,
+- editorial design,
+- and hypertext interaction
+into a unified publishing environment.
+
+<p align="center">
+  <img src="publish-example-2.png" width="980">
+</p>
+
+---
+
+# Galleries made with Zykov
+
+Here are some example galleries to explore:
+1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
+2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
+3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
+4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
+
 ---
 
 # Live Playground
@@ -105,6 +101,8 @@ Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend
 // this is a comment. Eliminate the comment above to see what Zy wants to say :)
 ```
 And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://anekemuthep.neocities.org/zygrafi_notelab_docked_reader_all_color). Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
+
+# Learn More
 
 If you want to learn more on Zykov, you can try the code for the tutorial:
 ```zyk
@@ -224,66 +222,6 @@ gallery = {
   Room -> "Main Room"
 }
 ```
-
----
-
-# Philosophy
-
-Zykov treats graphs not only as data structures, but as navigable narrative spaces.
-
-A graph in Zykov can simultaneously become:
-- a semantic archive,
-- an interconnected diary,
-- a curatorial exhibition,
-- a conceptual atlas,
-- a semantic notebook,
-- or a digital publication.
-
-The language is inspired by:
-- algebraic graph theory,
-- semantic hypertext,
-- curatorial design,
-- ergodic literature,
-- experimental interfaces,
-- and graph-based visual exploration.
-
----
-
-# Semantic Curatorial Publishing
-
-Zykov extends algebraic graph theory into semantic publishing.
-
-Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
-- interactive semantic pages,
-- navigable graph publications,
-- interconnected entries,
-- editorial semantic galleries,
-- and curatorial hypertext systems.
-
-<p align="center">
-  <img src="publish-example-1.png" width="980">
-</p>
-
-Zygrafi combines:
-- graph visualization,
-- semantic topology,
-- editorial design,
-- and hypertext interaction
-into a unified publishing environment.
-
-<p align="center">
-  <img src="publish-example-2.png" width="980">
-</p>
-
----
-
-# Galleries made with Zykov
-
-Here are some example galleries to explore:
-1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
-2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
-3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
-4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
 
 ---
 
