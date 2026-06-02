@@ -148,6 +148,138 @@ Included examples:
 
 ---
 
+# Developer Tools
+
+Starting from version 0.8, Zygrafi includes a set of auxiliary commands designed to inspect, debug and explore Zykov projects before publication.
+
+## Diagnostic
+
+Generates a visual diagnostic report of a `.zyk` script.
+
+```bash
+zygrafi diagnostic examples/hello.zyk
+```
+
+Output:
+
+```text
+examples/hello.diagnostic.html
+```
+
+The diagnostic page reports:
+
+- Syntax errors
+- Parser errors
+- Structural issues
+- Compilation status
+- ErrorGraph visualization
+
+If no problems are detected, an OK report is generated.
+
+---
+
+## ColorChart
+
+Generates a visual palette map from a Zykov script.
+
+```bash
+zygrafi colorchart examples/hello.zyk
+```
+
+Output:
+
+```text
+examples/hello.colorchart.html
+```
+
+ColorChart extracts and visualizes:
+
+- Background colors
+- Node colors
+- Edge colors
+- Category colors
+- Room-specific visual themes
+
+When `roomDesign` blocks are present, a separate palette view is generated for each room.
+
+ColorChart is useful for:
+
+- Theme design
+- Visual consistency checks
+- Documentation of semantic galleries
+- Style inspection
+
+---
+
+## NoteLab
+
+Launches the interactive Zygrafi notebook environment.
+
+```bash
+zygrafi notelab
+```
+
+or
+
+```bash
+zygrafi notelab examples/hello.zyk
+```
+
+NoteLab provides:
+
+- Interactive graph preview
+- Zykov code editor
+- Room inspection
+- Node inspection
+- Semantic publication prototyping
+
+When launched without a file, NoteLab opens a default welcome notebook demonstrating:
+
+- Categories
+- Entries
+- RoomData
+- Gallery
+- Graph layouts
+
+The environment serves as a notebook-like laboratory for experimenting with Zykov scripts before publication.
+
+---
+
+## Studio
+
+An alias for NoteLab.
+
+```bash
+zygrafi studio
+```
+
+or
+
+```bash
+zygrafi studio examples/hello.zyk
+```
+
+Studio and NoteLab currently provide the same environment.
+
+---
+
+## Typical Workflow
+
+```bash
+zygrafi studio myproject.zyk
+zygrafi diagnostic myproject.zyk
+zygrafi colorchart myproject.zyk
+zygrafi publish myproject.zyk
+```
+
+This workflow allows the author to:
+
+1. Edit and test the script.
+2. Validate its structure.
+3. Inspect its visual design.
+4. Publish the final semantic gallery.
+
+---
 # Learn More
 
 If you want to learn more on Zykov, you can try the code for the tutorial:
