@@ -16,45 +16,6 @@ Zykov is a programming language for constructing:
 
 ---
 
-# Graphs as Expressions
-
-In Zykov, graphs are written algebraically.
-
-The expression itself becomes the topology.
-
-<p align="center">
-  <img src="zy-greeting.png" width="1980">
-</p>
-
-The above graph is expressed as
-```zyk
-a1*a2*a3 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there + I*am+am*Floating+Floating*as+as*a+a*Graph
-```
-
-## Semantic Graph
-
-In Zykov, algebraic graph structures can become:
-- semantic publications,
-- curatorial interfaces,
-- interconnected essays,
-- and navigable narrative systems.
-
-The expression is not only code.
-
-It is:
-- structure,
-- topology,
-- narrative,
-- and publication architecture.
-
-In the above example, two categories are created, as cat1 and cat2, for the clique a1*a2*a3 , and hello * there , so we have
-
-```zyk
-a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
-```
-Where the categories are associated with colors to differenciate and filter.
-
----
 # Semantic Curatorial Publishing
 
 Zykov extends algebraic graph theory into semantic publishing.
@@ -90,6 +51,38 @@ Here are some example galleries to explore:
 2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
 3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
 4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
+
+---
+
+# Graphs as Expressions
+
+In Zykov, graphs are written algebraically.
+
+The expression itself becomes the topology.
+
+<p align="center">
+  <img src="zy-greeting.png" width="1980">
+</p>
+
+The above graph is expressed as
+```zyk
+a1*a2*a3 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there + I*am+am*Floating+Floating*as+as*a+a*Graph
+```
+
+## Semantic Graph
+
+In Zykov, algebraic graph structures can become:
+- semantic publications,
+- curatorial interfaces,
+- interconnected essays,
+- and navigable narrative systems.
+
+In the above example, two categories are created, as cat1 and cat2, for the clique a1*a2*a3 , and hello * there , so we have
+
+```zyk
+a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
+```
+Where the categories are associated with colors to differenciate and filter.
 
 ---
 
