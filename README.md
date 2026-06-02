@@ -2,8 +2,15 @@
 
 **A graph-oriented language for semantic curatorial publishing on the web.**
 
-Zykov extends algebraic graph theory into semantic publishing.
+Zykov is inspired by A. A. Zykov's pioneering 1949 algebraic approach to graph theory in `General Properties of Linear Complexes`, and featured in the recent 2025 work by A. Bustamante et al. titled `A Zykov algebra approach to clique propagation:
+Classifying clique complexes in graphs`, [published in Discrete Mathematics, Algorithms and Applications](https://www.worldscientific.com/doi/abs/10.1142/S1793830925500806). Zykov extends algebraic graph theory into semantic publishing.
 
+### Features
+- **Simple Operations**: Graphs are written symbolically instead of lists, simplifying the graph computational writing.
+- **Visualization**: The algebraic graph expressions is visualized as an interactive live network.
+- **Intuitive Parsing**: Translate human-friendly graph expressions into machine-understandable structures.
+
+### Zigrafi Compiler
 Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
 - interactive semantic pages,
 - navigable graph publications,
@@ -14,6 +21,12 @@ Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
 <p align="center">
   <img src="publish-example-1.png" width="980">
 </p>
+
+## Getting Started
+
+1. Dive into our [documentation](#Graph-as-Expressions) to explore the capabilities of the `zykovEngine`.
+2. Run the [live demo](#Live-Playground) to witness the magic in action.
+  3. Install [last release](#Installation) to embark on your graph algebra journey.
 
 ---
 
@@ -40,7 +53,7 @@ In Zykov, algebraic graph structures can become:
 - interconnected essays,
 - and navigable narrative systems.
 
-In the above example, two categories are created, as cat1 and cat2, for the clique a1*a2*a3 , and hello * there , so we have
+In the above example, two categories are created, as cat1 and cat2, for the clique a1 * a2 * a3 , and hello * there , so we have
 
 ```zyk
 a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
