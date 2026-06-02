@@ -2,22 +2,6 @@
 
 **A graph-oriented language for semantic curatorial publishing on the web.**
 
-Write graphs as algebraic expressions.  
-Compile them into navigable semantic spaces.
-
-Zykov is a programming language for constructing:
-- semantic archives,
-- interconnected blogs,
-- curatorial exhibitions,
-- semantic notebooks,
-- narrative maps,
-- semantic newsrooms,
-- and exploratory hypertext systems.
-
----
-
-# Semantic Curatorial Publishing
-
 Zykov extends algebraic graph theory into semantic publishing.
 
 Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
