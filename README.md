@@ -22,10 +22,6 @@ Zygrafi combines:
 - and hypertext interaction
 into a unified publishing environment.
 
-<p align="center">
-  <img src="publish-example-2.png" width="980">
-</p>
-
 ---
 
 # Galleries made with Zykov
