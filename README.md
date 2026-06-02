@@ -85,7 +85,7 @@ Here are some example galleries to explore:
 
 # Installation
 
-Go [here](https://github.com/Anekemuthep/Zykov/releases/tag/latest) and download zykov-lang-08.zip
+Go [here](https://github.com/Anekemuthep/Zykov/releases/tag/latest) and download zykov-lang-1.zip
 
 ## Requirements
 
