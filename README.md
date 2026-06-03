@@ -32,13 +32,15 @@ Here are some example galleries to explore:
 
 ## Getting Started
 
-1. Dive into our [documentation](#Learn-More) to explore the capabilities of the `zykovEngine`.
+1. Dive into our [documentation](#Graphs-inZykov) to explore the capabilities of the `zykovEngine`.
 2. Run the [live demo](#Live-Playground) to witness the magic in action.
 3. Install [last release](#Installation) to embark on your graph algebra journey.
 
 ---
 
-# Graphs as Expressions
+# Graphs in Zykov
+
+## Graphs as Expressions
 
 In Zykov, graphs are written algebraically.
 
