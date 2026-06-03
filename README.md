@@ -32,9 +32,9 @@ Here are some example galleries to explore:
 
 ## Getting Started
 
-1. Dive into our [documentation](#Graphs-inZykov) to explore the capabilities of the `zykovEngine`.
+1. Dive into our [documentation](#Developer-Tools) to explore the capabilities of the `zykov language`.
 2. Run the [live demo](#Live-Playground) to witness the magic in action.
-3. Install [last release](#Installation) to embark on your graph algebra journey.
+3. Install [last release](#Installation) to embark on your graph publishing journey.
 
 ---
 
