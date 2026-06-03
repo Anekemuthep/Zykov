@@ -22,12 +22,19 @@ Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
   <img src="publish-example-1.png" width="980">
 </p>
 
+## Galleries made with Zykov
+
+Here are some example galleries to explore:
+1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
+2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
+3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
+4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
+
 ## Getting Started
 
 1. Dive into our [documentation](#Learn-More) to explore the capabilities of the `zykovEngine`.
 2. Run the [live demo](#Live-Playground) to witness the magic in action.
-3. Look for yourself some [examples](#Galleries-made-with-Zykov) of gallery sites made with Zykov
-4. Install [last release](#Installation) to embark on your graph algebra journey.
+3. Install [last release](#Installation) to embark on your graph algebra journey.
 
 ---
 
@@ -71,16 +78,6 @@ Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend
 // this is a comment. Eliminate the comment above to see what Zy wants to say :)
 ```
 And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://anekemuthep.neocities.org/zygrafi-notelab). Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
-
----
-
-# Galleries made with Zykov
-
-Here are some example galleries to explore:
-1. [Computers, Anthropology and Sneakers: A Map Gallery](https://anekemuthep.neocities.org/sample-gallery-cas.build)
-2. [Wipeout: Music, Lore and Tracks](https://anekemuthep.neocities.org/wipeout-music-lore-tracks.build)
-3. [A modo de Blog Semántico (Abril 2026)](https://anekemuthep.neocities.org/first-web-graph-blog-2026-selected-entries.build)
-4. [Zygrafi Newsroom - Edition III: A semantic News Gallery](https://anekemuthep.neocities.org/zygrafi-newsroom-edition-iii-week-signal.build)
 
 ---
 
