@@ -26,7 +26,8 @@ Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
 
 1. Dive into our [documentation](#Learn-More) to explore the capabilities of the `zykovEngine`.
 2. Run the [live demo](#Live-Playground) to witness the magic in action.
-  3. Install [last release](#Installation) to embark on your graph algebra journey.
+3. Look for yourself some [examples](#Galleries-made-with-Zykov) of gallery sites made with Zykov
+4. Install [last release](#Installation) to embark on your graph algebra journey.
 
 ---
 
