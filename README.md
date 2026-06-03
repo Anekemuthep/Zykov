@@ -32,7 +32,7 @@ Here are some example galleries to explore:
 
 ## Getting Started
 
-1. Dive into our [documentation](https://anekemuthep.neocities.org/zykov-manual-1.0) to explore the capabilities of the `zykov language`.
+1. Dive into our [documentation](https://anekemuthep.neocities.org/zykov-official-user-guide-1.1) to explore the capabilities of the `zykov language`.
 2. Run the [live demo](#Live-Playground) to test Zykov for yourself.
 3. Install [last release](#Installation) to embark on your graph publishing journey.
 
