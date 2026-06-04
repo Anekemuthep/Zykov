@@ -77,40 +77,6 @@ And try Zykov directly in the browser. Press *clear*, *paste* the expression, th
 
 ---
 
-# Graphs in Zykov
-
-## Graphs as Expressions
-
-In Zykov, graphs are written algebraically.
-
-The expression itself becomes the topology.
-
-<p align="center">
-  <img src="zy-greeting.png" width="1980">
-</p>
-
-The above graph is expressed as
-```zyk
-a1*a2*a3 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there + I*am+am*Floating+Floating*as+as*a+a*Graph
-```
-
-## Semantic Graph
-
-In Zykov, algebraic graph structures can become:
-- semantic publications,
-- curatorial interfaces,
-- interconnected essays,
-- and navigable narrative systems.
-
-In the above example, two categories are created, as cat1 and cat2, for the clique a1 * a2 * a3 , and hello * there , so we have
-
-```zyk
-a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
-```
-Where the categories are associated with colors to differenciate and filter.
-
----
-
 # Installation
 
 Go [here](https://github.com/Anekemuthep/Zykov/releases/tag/latest) and download zykov-lang-1.zip
