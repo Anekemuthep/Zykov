@@ -5,12 +5,44 @@
 Zykov is inspired by A. A. Zykov's pioneering 1949 algebraic approach to graph theory in `General Properties of Linear Complexes`, and featured in the recent 2025 work by A. Bustamante et al. titled `A Zykov algebra approach to clique propagation:
 Classifying clique complexes in graphs`, [published in Discrete Mathematics, Algorithms and Applications](https://www.worldscientific.com/doi/abs/10.1142/S1793830925500806). Zykov extends algebraic graph theory into semantic publishing.
 
-### Features
+## Graphs in Zykov
+
+### Graphs as Expressions
+
+In Zykov, graphs are written algebraically.
+
+The expression itself becomes the topology.
+
+<p align="center">
+  <img src="zy-greeting.png" width="1980">
+</p>
+
+The above graph is expressed as
+```zyk
+a1*a2*a3 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there + I*am+am*Floating+Floating*as+as*a+a*Graph
+```
+
+### Semantic Graph
+
+In Zykov, algebraic graph structures can become:
+- semantic publications,
+- curatorial interfaces,
+- interconnected essays,
+- and navigable narrative systems.
+
+In the above example, two categories are created, as cat1 and cat2, for the clique a1 * a2 * a3 , and hello * there , so we have
+
+```zyk
+a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
+```
+Where the categories are associated with colors to differenciate and filter.
+
+## Features
 - **Simple Operations**: Graphs are written symbolically instead of lists, simplifying the graph computational writing.
 - **Visualization**: The algebraic graph expressions is visualized as an interactive live network.
 - **Intuitive Parsing**: Translate human-friendly graph expressions into machine-understandable structures.
 
-### Zigrafi Compiler
+## Zigrafi Compiler
 Its companion compiler, **Zygrafi**, transforms `.zyk` scripts into:
 - interactive semantic pages,
 - navigable graph publications,
@@ -33,7 +65,13 @@ Here are some example galleries to explore:
 ## Getting Started
 
 1. Dive into our [documentation](https://anekemuthep.neocities.org/zykov-official-user-guide-1.1) to explore the capabilities of the `zykov language`.
-2. Run the [live demo](#Live-Playground) to test Zykov for yourself.
+2. Run the [Zygrafi Studio](https://anekemuthep.neocities.org/zygrafi-notelab) to test Zykov for yourself.
+   Copy and paste the following code:
+```zyk
+Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend,have,a,happy,zykov,coding])
+// this is a comment. Eliminate the comment above to see what Zy wants to say :)
+```
+And try Zykov directly in the browser. Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
 3. Install [last release](#Installation) to embark on your graph publishing journey.
 
 ---
@@ -69,17 +107,6 @@ In the above example, two categories are created, as cat1 and cat2, for the cliq
 a1*a2*a3 :: cat1 + a3*(b1+B2+b3)+b3*(C1+c2) + hello*there :: cat2 + I*am+am*Floating+Floating*as+as*a+a*Graph
 ```
 Where the categories are associated with colors to differenciate and filter.
-
----
-
-# Live Playground
-
-Copy and paste the following code:
-```zyk
-Zy = a1 * a2 * a3 + a3 * (b1 + b2 + b3)  + b3 * (c1 + c2) //+ path([hello,friend,have,a,happy,zykov,coding])
-// this is a comment. Eliminate the comment above to see what Zy wants to say :)
-```
-And try Zykov directly in the browser by [Open Zygrafi NoteLab](https://anekemuthep.neocities.org/zygrafi-notelab). Press *clear*, *paste* the expression, then *run*  and Zy will greet you :). 
 
 ---
 
